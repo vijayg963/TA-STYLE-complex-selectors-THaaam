@@ -141,6 +141,7 @@ body {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   font-size: 1.4rem;
+  text-align: center;
 }
 .container {
   max-width: 1200px;
@@ -233,7 +234,7 @@ button {
 }
 
 .margin-bottom {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .hero {
@@ -241,8 +242,8 @@ button {
 }
 
 .brand {
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 2.7rem;
+  font-weight: 700;
   color: white;
 }
 
@@ -258,14 +259,14 @@ button {
 h1 {
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 h1 ~ button {
   background-color: white;
   padding: 1.5rem 3rem;
   border-radius: 0.5rem;
-  margin-bottom: 20rem;
+  margin-bottom: 18rem;
   color: var(--text-dark);
   font-weight: 900;
   font-size: 1.5rem;
@@ -273,10 +274,13 @@ h1 ~ button {
 
 .hero-info {
   max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
 .hero-img {
-  margin-top: -27rem;
+  margin-top: -32rem;
 }
 
 .logo {
@@ -294,7 +298,6 @@ hr {
   height: 0.22rem;
 }
 
-h3,
 h4,
 h5,
 h6 {
@@ -303,9 +306,17 @@ h6 {
   color: var(--text-dark);
 }
 
+h3 {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-dark);
+}
+
 h3 ~ p {
   color: var(--text-light);
   margin: 1rem 0;
+  text-align: left;
 }
 
 .graph button {
@@ -317,15 +328,15 @@ h3 ~ p {
 
 .triangle-right-white {
   position: relative;
-  left: 1.5rem;
+  left: 1.2rem;
   border-top: 1.6rem solid transparent;
-  border-left: 1.6rem solid white;
+  border-left: 1.2rem solid white;
   border-bottom: 1.6rem solid transparent;
 }
 
 .triangle-right {
   border-top: 1.6rem solid transparent;
-  border-left: 1.6rem solid #59bfc2;
+  border-left: 1.4rem solid #59bfc2;
   border-bottom: 1.6rem solid transparent;
 }
 
@@ -351,8 +362,14 @@ tr:nth-child(2n + 1) {
   background-color: rgb(213, 229, 229);
 }
 
+th {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
 th,
 td {
+  font-weight: 500;
   border-bottom: 2px solid rgb(216, 216, 216);
   padding: 10px 20px;
   color: rgb(123, 126, 132);
@@ -369,6 +386,8 @@ td {
 }
 
 h5 {
+  text-align: center;
+  margin: 0 auto;
   max-width: 25rem;
   margin-bottom: 2rem;
 }
@@ -421,6 +440,7 @@ h6 ~ p {
   line-height: 2.5;
   padding-left: 2rem;
   font-size: 1.8rem;
+  text-align: left;
 }
 
 .fa-check {
@@ -448,7 +468,7 @@ h6 ~ p {
 }
 
 .btn-3 {
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   width: 100%;
   font-size: 2rem;
   margin: 1rem 0;
@@ -468,7 +488,7 @@ h6 ~ p {
 
 .trial {
   background-color: var(--primary);
-  padding: 4rem 0;
+  padding: 3rem 0;
   border-radius: 2rem;
   color: white;
 }
@@ -507,8 +527,8 @@ footer h3 {
 .icon {
   background: #59bfc2;
   color: white;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -564,7 +584,7 @@ footer h3 {
     display: none;
   }
   .brand {
-    color: black;
+    color: rgb(0, 0, 100);
     position: fixed;
     top: 0.8rem;
     z-index: 99;
@@ -578,7 +598,7 @@ footer h3 {
   }
 
   .nav-item li a {
-    color: black;
+    color: rgb(0, 0, 100);
   }
 
   .nav ul {
@@ -592,6 +612,7 @@ footer h3 {
   }
   #toggle:checked ~ .nav {
     display: inline-block;
+    color: rgb(0, 0, 100);
   }
   .bars {
     display: inline-block;
@@ -609,7 +630,7 @@ footer h3 {
     right: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(204, 207, 216, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     padding-top: 12rem;
     z-index: 2;
   }
